@@ -100,7 +100,7 @@ if __name__ == '__main__':
 	
 	# Load model yang telah ditraining
 	model = make_model()
-	model.load_weights("model_cifar10_cnn_tf.h5")
+	model.load_weights("model_cifar10_cnn1_tf.h5")
 
 	# Run Flask di localhost 
 	app.run(host="localhost", port=5000, debug=True)
